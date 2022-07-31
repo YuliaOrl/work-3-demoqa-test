@@ -8,11 +8,11 @@ public class FirstTest {
 
     @Test
     void firstTest() {
-        Assertions.assertTrue(100 < 200);
+        Assertions.assertTrue(100 <= 200);
     }
 
     @Test
     void secondTest() {
-        Assertions.assertTrue(1000 < 2000);
+        Assertions.assertTrue(1000 <= 2000);
     }
 }
